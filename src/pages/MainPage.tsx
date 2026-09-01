@@ -31,6 +31,7 @@ function MainPage() {
           <Welcome
             title={texts.welcome.title}
             description={texts.welcome.description}
+            avatarUrl={'/images/personal_avatar.jpg'}
           />
         ),
       },
