@@ -12,11 +12,11 @@ export const cvData: CVData = {
     },
     welcome: {
       title: "Bartłomiej Handziak",
-      description: "Computer Science Student (3rd year at CUT) | Frontend Developer",
+      description: "Computer Science Student (4rd year at CUT) | Frontend Developer",
     },
     aboutMe: {
       title: "About Me",
-      description: "I am a 6th-semester Computer Science student at Cracow University of Technology. I am developing my skills in software engineering, with a primary focus on building web applications using React. I code applications emphasizing clean code readability, architectural scalability, and user experience. Concurrently, I expand my expertise in system administration, networking, and IT security, gaining practical experience with Windows and Linux systems, network devices, as well as QA and automation tools. In my daily workflow, I leverage AI tools to maintain high efficiency.",
+      description: "I am a 7th-semester Computer Science student at Cracow University of Technology. I am developing my skills in software engineering, with a primary focus on building web applications using React. I code applications emphasizing clean code readability, architectural scalability, and user experience. Concurrently, I expand my expertise in system administration, networking, and IT security, gaining practical experience with Windows and Linux systems, network devices, as well as QA and automation tools. In my daily workflow, I leverage AI tools to maintain high efficiency.",
     },
     techStack: {
       title: "Tech Stack",
@@ -348,6 +348,18 @@ export const cvData: CVData = {
         "Hackathon theme: 'Cyber Security Awareness'."
       ],
       technologies: ['C# / .NET', 'React.js', 'TS', 'Tailwind', 'AI Integration / Gemini API'],
+      isVisible: true,
+    },
+    {
+      id: "hospital",
+      role: "Engineering Intern",
+      company: "Szpital Uniwersytecki w Krakowie",
+      period: "August 2026",
+      description: [
+        "Providing technical support to medical staff.",
+        "Setting up a test environment and building a Graylog-based SIEM architecture prototype.",
+      ],
+      technologies: ['Graylog', 'Docker', 'Linux'],
       isVisible: true,
     },
     {

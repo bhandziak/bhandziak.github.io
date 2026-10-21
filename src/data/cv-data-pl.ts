@@ -12,11 +12,11 @@ export const cvData: CVData = {
     },
     welcome: {
       title: "Bartłomiej Handziak",
-      description: "Student PK (3. rok, kierunek Informatyka) | Frontend Developer",
+      description: "Student PK (4. rok, kierunek Informatyka) | Frontend Developer",
     },
     aboutMe: {
       title: "O mnie",
-      description: "Jestem studentem 6. semestru informatyki na Politechnice Krakowskiej. Rozwijam się w obszarze tworzenia oprogramowania, szczególnie w zakresie aplikacji webowych z wykorzystaniem React. \
+      description: "Jestem studentem 7. semestru informatyki na Politechnice Krakowskiej. Rozwijam się w obszarze tworzenia oprogramowania, szczególnie w zakresie aplikacji webowych z wykorzystaniem React. \
       Tworzę aplikacje, dbając o czytelność kodu, skalowalność rozwiązań oraz dobre doświadczenia użytkownika. Równolegle rozwijam zainteresowania związane z administracją systemami, sieciami komputerowymi oraz bezpieczeństwem IT, zdobywając praktyczne doświadczenie z systemami Windows i Linux, urządzeniami sieciowymi oraz narzędziami automatyzacji i QA. \
       W pracy stawiam na wysoką efektywność wykorzystując narzędzia AI. \
       ",
@@ -351,6 +351,18 @@ export const cvData: CVData = {
         "Tematem Hackathonu była “Cyber Security awareness”."
       ],
       technologies: ['C# / .NET', 'React.js', 'TS', 'Tailwind', 'Integracja z AI / Gemini API'],
+      isVisible: true,
+    },
+    {
+      id: "hospital",
+      role: "Engineering Intern",
+      company: "Szpital Uniwersytecki w Krakowie",
+      period: "Sierpień 2026",
+      description: [
+        "Wsparcie techniczne pracownikom medycznym.",
+        "Przygotowanie środowiska testowego / prototyp architektury SIEM opartego na Graylog.",
+      ],
+      technologies: [],
       isVisible: true,
     },
     {
