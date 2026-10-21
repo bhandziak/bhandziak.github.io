@@ -362,7 +362,7 @@ export const cvData: CVData = {
         "Wsparcie techniczne pracownikom medycznym.",
         "Przygotowanie środowiska testowego / prototyp architektury SIEM opartego na Graylog.",
       ],
-      technologies: [],
+      technologies: ['Graylog', 'Docker', 'Linux'],
       isVisible: true,
     },
     {
