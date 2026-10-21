@@ -334,7 +334,7 @@ export const cvData: CVData = {
     location: "Kraków, Polska",
     socials: {
       github: "https://github.com/bhandziak",
-      linkedin: "https://www.linkedin.com/in/bart%C5%82omiej-handziak-7b178626a/",
+      linkedin: "https://linkedin.com/in/bartlomiej-handziak/",
       email: "bartek.handziak@gmail.com",
     },
   },
